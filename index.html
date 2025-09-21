@@ -2,13 +2,102 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Ludovic Grimbert – Applications</title>
+  <style>
+    /* ----- Style global ----- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #2a1c1c;
+      background: url('https://ludovicgrimbert.github.io/LGSite/wallpaper/wallpaper5.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* ----- Bandeau ----- */
+    header {
+      /*background-color: rgba(0, 0, 0, 1.0);
+      color: rgb(255, 255, 255);*/
+      font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+      text-align: left;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    /* ----- Contenu principal ----- */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    /* ----- Cartes Applications ----- */
+    .app {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .app h2 {
+      color: #0070c9;
+      margin-top: 0;
+    }
+
+    /* ----- Liens ----- */
+    a {
+      color: #0070c9;
+      text-decoration: none;
+    }
+
+    /* ----- Pied de page ----- */
+    .footer {
+      font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+      text-align: left;
+      padding: 1rem;
+      color: rgb(237, 232, 232);
+      background-color: rgba(0, 0, 0, 1.0);
+    }
+  </style>
 </head>
 <body>
-  <h1>Mon Portfolio</h1>
+  <header>
+    <h1>Ludovic Grimbert</h1>
+         <!-- <p>Mes applications iOS</p> -->
+  </header>
+
+  <div class="container">
+    <!-- Application 1 -->
+    <div class="app">
+      <h2>Remote TV</h2>
+      <p>Une application pour contrôler votre télévision facilement.</p>
+      <p><a href="#">Lien de téléchargement (App Store)</a></p>
+      <h3>Politique de Confidentialité</h3>
+      <p>Remote TV ne collecte aucune donnée personnelle. Pour toute question, contactez <a href="mailto:support@tondomaine.com">support@tondomaine.com</a>.</p>
+    </div>
+
+    <!-- Application 2 -->
+     <!-- Ceci est un commentaire -->
+    <!-- 
+    <div class="app">
+      <h2>Lego</h2>
+      <p>Une application ludique autour des briques Lego.</p>
+      <p><a href="#">Lien de téléchargement (App Store)</a></p>
+      <h3>Politique de Confidentialité</h3>
+      <p>Lego ne collecte aucune donnée personnelle. Pour toute question, contactez <a href="mailto:support@tondomaine.com">support@tondomaine.com</a>.</p>
+    </div>
+    -->
+
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Ludovic Grimbert – Tous droits réservés.
+  </div>
 </body>
 </html>
+
 
