@@ -6,7 +6,7 @@ body {
   text-align: center;
 
   /* Image de fond */
-  background-image: url('https://ludovicgrimbert.github.io/LGSite/wallpaper/wallpaper3.jpg'); /* Mets ici ton image */
+  background-image: url('https://ludovicgrimbert.github.io/LGSite/wallpaper/wallpaper4.jpg'); /* Mets ici ton image */
   background-size: cover;        /* L'image couvre tout l'écran */
   background-repeat: no-repeat;  /* Pas de répétition */
   background-attachment: fixed;  /* L'image reste fixe */
@@ -27,7 +27,7 @@ body {
 
 /* Titres */
 h1, h2 {
-  margin: 200px 0;
+  margin: 10px 0;
 }
 
 /* Sections */
