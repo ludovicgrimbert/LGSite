@@ -7,31 +7,37 @@
   <style>
 @import url('https://fonts.cdnfonts.com/css/helvetica-255');
 
-    /* ----- Style global ----- */
-    body {
-      font-family: Arial, sans-serif;
+    /* ----- Flexbox global ----- */
+    html, body {
+      height: 100%;
       margin: 0;
-      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
       color: #2a1c1c;
       background: url('https://ludovicgrimbert.github.io/LGSite/wallpaper/wallpaper5.png') no-repeat center center fixed;
       background-size: cover;
     }
 
-    /* ----- Bandeau ----- */
+    /* ----- Header ----- */
     header {
-      /*background-color: rgba(0, 0, 0, 1.0);
-      color: rgb(255, 255, 255);*/
       font-family: "HelveticaNeue-CondensedBold";
       text-align: left;
       padding: 2rem 1rem;
+      /* couleurs conservées */
+      /*color: rgb(255, 255, 255);*/
     }
     header h1 {
       margin: 0;
       font-size: 3rem;
     }
 
-    /* ----- Contenu principal ----- */
+    /* ----- Conteneur principal ----- */
     .container {
+      flex: 1; /* prend tout l’espace restant pour pousser le footer vers le bas */
       max-width: 900px;
       margin: auto;
       padding: 2rem;
@@ -47,42 +53,42 @@
     }
     .app h2 {
       color: #b47434;
-            font-size: 1.5rem;
+      font-size: 1.5rem;
       font-family: "HelveticaNeue-CondensedBold";
       margin-top: 0;
     }
 
     .app h3 {
       color: #b47434;
-            font-size: 1.0rem;
+      font-size: 1rem;
       font-family: "HelveticaNeue-CondensedBold";
       margin-top: 0;
     }
 
-     .app p {
+    .app p {
       color: #373635;
-            font-size: 0.8rem;
-font-family: 'Helvetica', sans-serif;
+      font-size: 0.8rem;
+      font-family: 'Helvetica', sans-serif;
       margin-top: 0;
     }
 
-     .app a {
+    .app a {
       color: #6e4b28;
-            font-size: 1.0rem;
-font-family: 'Helvetica Light', sans-serif;
+      font-size: 1rem;
+      font-family: 'Helvetica Light', sans-serif;
       margin-top: 0;
     }
 
-    /* ----- Liens ----- */
+    /* ----- Liens globaux ----- */
     a {
       color: #7b6231;
       text-decoration: none;
     }
 
-    /* ----- Pied de page ----- */
+    /* ----- Footer ----- */
     .footer {
       font-size: 1.2rem;
-font-family: 'Helvetica Light', sans-serif;
+      font-family: 'Helvetica Light', sans-serif;
       text-align: left;
       padding: 1rem;
       color: rgb(242, 235, 224);
@@ -93,7 +99,7 @@ font-family: 'Helvetica Light', sans-serif;
 <body>
   <header>
     <h1>Ludovic Grimbert</h1>
-         <!-- <p>Mes applications iOS</p> -->
+    <!-- <p>Mes applications iOS</p> -->
   </header>
 
   <div class="container">
@@ -107,7 +113,6 @@ font-family: 'Helvetica Light', sans-serif;
     </div>
 
     <!-- Application 2 -->
-     <!-- Ceci est un commentaire -->
     <!-- 
     <div class="app">
       <h2>Lego</h2>
@@ -117,7 +122,6 @@ font-family: 'Helvetica Light', sans-serif;
       <p>Lego ne collecte aucune donnée personnelle. Pour toute question, contactez <a href="mailto:support@tondomaine.com">support@tondomaine.com</a>.</p>
     </div>
     -->
-
   </div>
 
   <div class="footer">
@@ -125,5 +129,3 @@ font-family: 'Helvetica Light', sans-serif;
   </div>
 </body>
 </html>
-
-
